@@ -146,24 +146,35 @@ This section demonstrates the main capabilities of the Mobile Device Assistant A
 
 Extract structured smartphone information from natural-language input through the API.
 
-![Information Extraction Demo](<img width="1209" height="642" alt="image" src="https://github.com/user-attachments/assets/4cc2a90f-ff9d-4bcf-a4e5-c4f9ce43c1d5" />)
-![Information Extraction Demo_](<img width="1209" height="776" alt="image" src="https://github.com/user-attachments/assets/fde24dad-3dc5-40af-a6d2-ab9128215068" />)
+Request
+![Information Extraction Demo](Demo/Screenshots/extraction_request.png)
+
+Response
+![Information Extraction Demo](Demo/Screenshots/extraction_response.png)
 
 ### 2. Prompt Injection Validation
 
 Test how the API handles potentially malicious or unauthorized instructions. The demonstrated request is rejected with a `400 Bad Request` response.
 
-![Prompt Injection Validation Demo](docs/screenshots/prompt-injection.png)
+Request
+![Prompt Injection Validation Demo](Demo/Screenshots/prompt_injection_request.png)
+
+Response
+![Prompt Injection Validation Demo](Demo/Screenshots/prompt_injection_reponse.png)
 
 ### 3. Semantic Search
 
 Submit a natural-language query and retrieve relevant documents with associated similarity scores.
 
-![Semantic Search Demo](docs/screenshots/search.png)
+Request
+![Semantic Search Demo](Demo/Screenshots/search_request.png)
+
+Response
+![Prompt Injection Validation Demo](Demo/Screenshots/search_reponse.png)
 
 ### Full Demonstration
 
-For the complete request and response examples, see the [Demo Documentation](docs/demo.pdf).
+For the complete request and response examples, see the [Demo Documentation](Demo/demo.pdf).
 
 
 
