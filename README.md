@@ -160,7 +160,7 @@ Request
 ![Prompt Injection Validation Demo](Demo/Screenshots/prompt_injection_request.png)
 
 Response
-![Prompt Injection Validation Demo](Demo/Screenshots/prompt_injection_reponse.png)
+![Prompt Injection Validation Demo](Demo/Screenshots/prompt_injection_response.png)
 
 ### 3. Semantic Search
 
@@ -170,7 +170,7 @@ Request
 ![Semantic Search Demo](Demo/Screenshots/search_request.png)
 
 Response
-![Prompt Injection Validation Demo](Demo/Screenshots/search_reponse.png)
+![Semantic Search Demo](Demo/Screenshots/search_response.png)
 
 ### Full Demonstration
 
