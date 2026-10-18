@@ -1,0 +1,23 @@
+[project]
+name = "ass-3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14.6"
+dependencies = [
+    "fastapi>=0.100.0",
+    "numpy>=1.20.0",
+    "openai>=1.0.0",
+    "pydantic>=2.0",
+    "python-dotenv>=1.0.0",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=2.2.2",
+    "uvicorn>=0.22.0",
+]
+
+[project.scripts]
+ass-3 = "ass_3:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
